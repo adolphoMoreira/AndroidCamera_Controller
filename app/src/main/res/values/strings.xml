@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">WebRTC</string>
+    <string name="label_login">Usuário</string>
+    <string name="label_password">Senha</string>
+    <string name="action_login">Entrar</string>
+    <string name="action_exit">Sair</string>
+</resources>
