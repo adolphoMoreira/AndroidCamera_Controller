@@ -1,7 +1,21 @@
 <resources>
     <string name="app_name">WebRTC</string>
+
+    <!-- LABELS -->
+    <string name="label_attention">Atenção</string>
     <string name="label_login">Usuário</string>
     <string name="label_password">Senha</string>
+
+    <!-- Actions -->
     <string name="action_login">Entrar</string>
-    <string name="action_exit">Sair</string>
+    <string name="action_exit">Sair da Aplicação</string>
+    <string name="action_logout">Logout</string>
+    <string name="action_camera_1">Câmera 1</string>
+    <string name="action_camera_2">Câmera 2</string>
+    <string name="action_config">Configurações</string>
+
+    <!-- Errors -->
+    <string name="error_connection">Erro ao conectar-se com o servidor</string>
+    <string name="error_complete_all_fields">Preencher todos os campos</string>
+    <string name="error_login_access">Usuário ou senha inválidos.</string>
 </resources>

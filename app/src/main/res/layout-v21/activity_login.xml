@@ -29,6 +29,7 @@
             android:layout_below="@+id/activity_login_image"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="60dp"
+            android:progressTint="@color/colorAccent"
             android:visibility="gone" />
 
         <LinearLayout
