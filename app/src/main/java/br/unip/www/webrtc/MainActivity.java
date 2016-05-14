@@ -34,8 +34,8 @@ public class MainActivity extends AppCompatActivity {
         btnCameraOne.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(Intent.ACTION_VIEW);
-                i.setPackage("org.videolan.vlc.betav7neon");
+                Intent i = new Intent("org.videolan.vlc.VLCApplication.gui.video.VideoPlayerActivity");
+                i.setAction(Intent.ACTION_VIEW);
                 i.setDataAndType(Uri.parse("http://192.168.43.56:8080"), "video/h264");
                 startActivity(i);
             }
