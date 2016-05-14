@@ -45,7 +45,8 @@
         android:layout_centerHorizontal="true"
         android:background="@color/colorPrimaryDark"
         android:textColor="@android:color/white"
-        android:layout_marginBottom="5dp" />
+        android:layout_marginBottom="5dp"
+        android:visibility="gone" />
 
     <Button
         android:layout_width="match_parent"
@@ -56,6 +57,7 @@
         android:layout_centerHorizontal="true"
         android:background="@color/colorPrimaryDark"
         android:textColor="@android:color/white"
-        android:layout_marginBottom="5dp" />
+        android:layout_marginBottom="5dp"
+        android:visibility="gone" />
 
 </RelativeLayout>

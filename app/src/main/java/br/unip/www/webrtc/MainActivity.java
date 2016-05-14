@@ -2,10 +2,12 @@ package br.unip.www.webrtc;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.Button;
 
 import butterknife.Bind;
@@ -28,6 +30,16 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         ButterKnife.bind(this);
+
+        btnCameraOne.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(Intent.ACTION_VIEW);
+                i.setPackage("org.videolan.vlc.betav7neon");
+                i.setDataAndType(Uri.parse("http://ip:192.168.43.56:8080"), "video/h264");
+                startActivity(i);
+            }
+        });
     }
 
 
