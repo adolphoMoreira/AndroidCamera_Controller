@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent i = new Intent(Intent.ACTION_VIEW);
                 i.setPackage("org.videolan.vlc.betav7neon");
-                i.setDataAndType(Uri.parse("http://ip:192.168.43.56:8080"), "video/h264");
+                i.setDataAndType(Uri.parse("http://192.168.43.56:8080"), "video/h264");
                 startActivity(i);
             }
         });
